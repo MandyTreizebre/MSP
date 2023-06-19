@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/************************************
+*************************************
+****************HEADER***************
+*************************************
+************************************/
+
+header {
+    display: flex;
+    background-color: #106f6a;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header img {
+    width: 100px;
+}
+
+header a {
+    margin-right: 25px;
+    text-decoration: none;
+    color: black;
+    font-family: 'imprima', Times, serif;
+    color: white;
+    font-size: 1.1em;
+    background: linear-gradient(to top, white 0%, white 1px, transparent 2px) no-repeat;
+    background-size: 0 100%;
+    transition: background-size .3s;
+
+}
+
+header a:hover {
+    background-size: 100% 100%;
+    color: white;
+}
+
+/************************************
+*************************************
+***********MAIN - SECTION 1**********
+*************************************
+************************************/
+
+.first {
+    background: url("images/91597.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 400px;
+}
+
+h1 {
+    font-family:'librefranklin', Times, serif;
+    color:#106f6a;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/************************************
+*************************************
+**************POLICES****************
+*************************************
+************************************/
+
+@font-face {
+    font-family: imprima;
+    src: url(fonts/Imprima.ttf);
+}
+
+@font-face {
+    font-family: librefranklin;
+    src: url(fonts/LibreFranklin.ttf);
+}
